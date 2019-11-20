@@ -120,7 +120,7 @@ footer {
   color: white;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   body {
     background: url(images/bg-desktop.svg);
     font-family: "Open Sans", sans-serif;
@@ -162,7 +162,7 @@ footer {
   .main h1 {
     text-align: left;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 2px;
     width: 80%;
   }
@@ -196,5 +196,11 @@ footer {
     top: 32px;
     text-align: center;
     font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main h1 {
+    font-weight: 700;
+    font-size: 2rem;
   }
 }
